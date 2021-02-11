@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <%- include('partials/head.html')%>
+</head>
+<body>
+  <%- include ('partials/navigation.html') %>
+
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        <div class="card animate__animated animate__flipInX">
+          <div class="card-header bg-dark text-white text-center">
+            <h3>Contact Me</h3>
+          </div>
+          <div class="card-body">
+            <form action="">
+              <div class="form-group m-1">
+                <input class="form-control" type="text" name="" id="" placeholder="email">
+              </div>
+              <div class="form-group m-1">
+                <textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group text-center m-1">
+                <button class="btn btn-primary btn-block">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%- include('partials/footer.html')%>
+</body>
+</html>
